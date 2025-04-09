@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h2>Introduction to Markdown</h2>
+        <br>
+        <span>Markdown is a lightweight markup language that allows you to format text easily using plain text syntax. It’s widely used in documentation, blogging, and even writing code comments. This guide will introduce the basic features of Markdown and how you can use them in your documents.</span>
+        <h3>Basic Syntax</h3>
+        <ul style="list-style-type:none;" class="todo_list">
+        </ul>
+        <h3>Details</h3>
+        <br>
+        <span>When we talk about the headings, these start from H1 to H6 annotated as; </span>
+        <ul style="list-style-type:none;" class="todo_list">
+        </ul>
+        <hr style="height:0.2rem;" class="hr">
+        <blockquote><span>A blockquote is anything similar to this here as you can see below the horizontal line</span><br>
+        <span>It can be continued as multi paragraph by shitfting to the next line</span></blockquote>
+        <br>
+        <span>Skip a line to break from a blockquote</span>
+        <br>
+        <span>Let's take a sample codeblock below;</span>
+        <div class="code_block">
+        <br>
+        <span>let name = "Aine";</span>
+        </div>
+        <br>
+        <span>Empty one;</span>
+        <div class="code_block">
+        </div>
+        <h3>Testing numbered lists</h3>
+        <ul style="list-style-type: decimal;" class="numbered_list">
+        </ul>
+        <ul style="list-style-type: decimal;" class="numbered_list">
+        </ul>
+        <ul style="list-style-type: lower-alpha;" class="numbered_list">
+        </ul>
+        <ul style="list-style-type:upper_roman;" class="roman_list">
+        </ul>
+        <ul style="list-style-type:none;" class="todo_list">
+        </ul>
+        <ul style="list-style-type:none;" class="todo_list">
+        </ul>
+        <br>
+        <span><i class="italic">Hello there <b class="bold">Mr. Aine.</b></i>Thanks for the day_</span>
+        <br>
+        <span><code class="code">Hey</code></span>
+        <h1>Welcome to the Markdown Test</h1>
+        <h2>Introduction</h2>
+        <br>
+        <span>This document is designed to stress test your Markdown parser. It includes various elements such as:</span>
+        <ul style="list-style-type:none;" class="todo_list">
+        </ul>
+        <hr class="hr">
+        <h2>Headers Test</h2>
+        <h1>Header 1</h1>
+        <h2>Header 2</h2>
+        <h3>Header 3</h3>
+        <h4>Header 4</h4>
+        <h5>Header 5</h5>
+        <h6>Header 6</h6>
+        <h2>Paragraphs & Line Breaks</h2>
+        <br>
+        <span>This is a paragraph with some text.</span>
+        <br>
+        <span>This is another paragraph.</span>
+        <br>
+        <span>This paragraph contains <i class="italic">italic,</i> <b class="bold">bold,</b> <u class="underlined">underline,</u> and nested <b class="bold">bold-</b>_italic_ formatting.</span>
+        <hr class="hr">
+        <h2>Lists Test</h2>
+        <h3>Unordered List</h3>
+        <ul style="list-style-type:none;" class="todo_list">
+        </ul>
+        <br>
+        <span>    -(circle) Subitem 1</span>
+        <br>
+        <span>        -(disc) Subsubitem 1</span>
+        <ul style="list-style-type:none;" class="todo_list">
+        </ul>
+        <br>
+        <span>    -(circle) Subitem 2</span>
+        <h3>Ordered List</h3>
+        <ul style="list-style-type: decimal;" class="numbered_list">
+        </ul>
+        <br>
+        <span>    1. Nested first item</span>
+        <br>
+        <span>    2. Nested second item</span>
+        <ul style="list-style-type: decimal;" class="numbered_list">
+        </ul>
+        <br>
+        <span>    -(disc) Mixed bullet inside ordered list</span>
+        <hr class="hr">
+        <h2>Blockquote Test</h2>
+        <blockquote><span>This is a single-level blockquote.</span><br>
+        <span>> This is a nested blockquote.</span><br>
+        <span>Blockquote with a list</span><br>
+        <span>Another list item</span><br>
+        <span></u>_</span></blockquote>
+        <h2>Code Block Test</h2>
+        <h3>Inline Code</h3>
+        <br>
+        <span>Use <code class="code">print!("Hello, world!");</code> in Rust.</span>
+        <h2>Multi-line Code Block</h2>
+        <div class="code_block">
+        <br>
+        <span>rust</span>
+        <br>
+        <span>fn main() {</span>
+        <br>
+        <span>    println!("Hello, Markdown!");</span>
+        <br>
+        <span>}</span>
+        </div>
+        <hr class="hr">
+        <h2>Horizontal Rule</h2>
+        <hr class="hr">
+        <h2>Nested Elements</h2>
+        <ul style="list-style-type:none;" class="todo_list">
+        </ul>
+        <br>
+        <span>    - <i class="italic">Italic Nested Item</i></span>
+        <br>
+        <span>        - <code class="code">Code inside list</code></span>
+        <blockquote><span>*Bold in Blockquote*</span><br>
+        <span>Item inside blockquote</span><br>
+        <span>_Italic inside blockquote_</span><br>
+        <span></u>_</span></blockquote>
+        <h2>Highlight Test</h2>
+        <br>
+        <span>This is ==highlighted text==.</span>
+        <hr class="hr">
+        <h2>Large Content Stress Test</h2>
+        <br>
+        <span>Below is a repeated paragraph to test performance.</span>
+        <br>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</span>
+        <br>
+        <span>Sed cursus ante dapibus diam. <i class="italic">Sed nisi</i>. Nulla quis sem at nibh elementum imperdiet. Duis</span>
+        <br>
+        <span>sagittis ipsum. Praesent mauris. <b class="bold">Fusce nec tellus <u class="underlined">sed augue semper porta</u></b> <strike class="strike">Mauris massa</strike>.</span>
+        <br>
+        <span>Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per</span>
+        <br>
+        <span>conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero.</span>
+        <br>
+        <span>Repeat <strike class="strike">the above</strike>, paragraph 5000 times for extreme testing.</span>
+        </p>
+    </div>
+</body>
+</html>

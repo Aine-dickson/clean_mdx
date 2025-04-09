@@ -1,0 +1,44 @@
+# My Markdown Demo
+
+## Features
+
+This Markdown file demonstrates:
+
+- Headings
+- Lists
+- ``inline code``
+- Code blocks
+- Blockquotes
+- *Bold text*
+- _Italic text_
+- ~Strikethrough~
+
+---
+
+## List of Tools
+
+1. Programming Languages
+    1. Rust
+    2. JavaScript
+    3. TypeScript
+    4. C++
+2 Frameworks
+    i)Actix Web
+    ii)Vue.js
+    iii)Rocket
+    iv)React
+
+---
+
+## Sample Code Block
+
+```rust
+fn main() {
+    let greeting = "Hello, Markdown!";
+    println!("{}", greeting);
+}
+```
+
+# A Quote to Remember
+> “The only way to do great work is to love what you do.”
+— Steve Jobs
